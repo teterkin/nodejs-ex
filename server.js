@@ -121,5 +121,7 @@ initDb(function(err){
 
 app.listen(port, ip);
 console.log('Server running on http://%s:%s', ip, port);
+console.log('Changed by Alexander Teterkin...');
+console.log(':)');
 
 module.exports = app ;
